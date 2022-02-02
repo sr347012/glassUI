@@ -22,6 +22,7 @@ main {
     box-shadow: 0px 2px 3rem rgb(255,255,255,0.65) ;
     z-index: 25;
     backdrop-filter: blur(2rem);
+    display: flex;
 }
 
 .circle1, .circle2 {
@@ -47,4 +48,52 @@ main {
     right: 15%;
     bottom: 5%;
     /* z-index: -1; */
+}
+
+.dashboard {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.link { 
+    display: flex;
+    margin: 1rem;
+}
+.link h1 {
+    display: flex;
+    margin: 0.2rem ;
+}
+.games {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    /* height: 5px;
+    width: 5px; */
+    border-radius: 50%;
+}
+.game-link {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 2rem ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-link h1 {
+    margin: 2rem;
 }
